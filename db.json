@@ -1,0 +1,102 @@
+[
+    {
+        "model": "api.city",
+        "pk": 1,
+        "fields": {
+            "name": "Beijing",
+            "lat": "39.55",
+            "long": "116.25"
+        }
+    },
+
+    {
+        "model": "api.city",
+        "pk": 2,
+        "fields": {
+            "name": "Barcelona",
+            "lat": "41.23",
+            "long": "2.9"
+        }
+    },
+
+    {
+        "model": "api.city",
+        "pk": 3,
+        "fields": {
+            "name": "Toronto",
+            "lat": "39.55",
+            "long": "116.25"
+        }
+    },
+
+    {
+        "model": "api.city",
+        "pk": 4,
+        "fields": {
+            "name": "Bangkok",
+            "lat": "13.45",
+            "long": "100.30"
+        }
+    },
+
+    {
+        "model": "api.city",
+        "pk": 5,
+        "fields": {
+            "name": "Amsterdam",
+            "lat": "55.22",
+            "long": "4.53"
+        }
+    },
+    {
+        "model": "api.weather",
+        "pk": 1,
+        "fields": {
+            "city": 5,
+            "date": "2020-01-01",
+            "temp": 11.1,
+            "condition": "sunny"
+        }
+    },
+    {
+        "model": "api.weather",
+        "pk": 2,
+        "fields": {
+            "city": 4,
+            "date": "2020-01-01",
+            "temp": 12.1,
+            "condition": "sunny"
+        }
+    },
+    {
+        "model": "api.weather",
+        "pk": 3,
+        "fields": {
+            "city": 3,
+            "date": "2020-01-01",
+            "temp": 13.1,
+            "condition": "sunny"
+        }
+    },
+    {
+        "model": "api.weather",
+        "pk": 4,
+        "fields": {
+            "city": 2,
+            "date": "2020-01-01",
+            "temp": 14.1,
+            "condition": "sunny"
+        }
+    },
+    {
+        "model": "api.weather",
+        "pk": 5,
+        "fields": {
+            "city": 1,
+            "date": "2020-01-01",
+            "temp": 15.1,
+            "condition": "sunny"
+        }
+    }
+
+]
